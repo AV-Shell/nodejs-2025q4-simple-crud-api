@@ -6,7 +6,9 @@
   "scripts": {
     "start": "nodemon src/server.ts",
     "start:dev": "nodemon src/server.ts",
-    "start:prod": "webpack && node ./dist/bundle.js"
+    "start:prod": "webpack && node ./dist/bundle.js",
+    "start:dev:multi": "cross-env multimode=multi nodemon src/server.ts",
+    "start:prod:multi": "webpack && cross-env multimode=multi node ./dist/bundle.js"
   },
   "repository": {
     "type": "git",
