@@ -1,67 +1,19 @@
-# simple-crud-api
-## Task 3
+# [Course program module (for RS School students)](https://github.com/rolling-scopes-school/tasks/blob/master/node/modules/crud-api/README.md)
 
-## Prerequisites
+# Assignment: CRUD API
 
-- Git - [Download & Install Git](https://git-scm.com/downloads).
-- Node.js - [Download & Install Node.js](https://nodejs.org/en/download/) 
+## Description
 
-## Downloading:
+Your task is to implement simple CRUD API using in-memory database underneath.
 
-```bash
-git clone https://github.com/AV-Shell/nodejs-2025q4-simple-crud-api
-```
+## Technical requirements
 
-## Open repository folder in terminal,  [depends on your Operation System](https://google.com):
-
-```bash
- cd nodejs-2025q4-simple-crud-api
-```
-
-## Change active branch:
-```bash
-git checkout develop
-```
-
-
-### Install node modules
-```
-npm install
-```
-
-
-## Running application
-```
-npm run start
-```
-
-## Running application in prodaction mode
-```
-npm run start:prod
-```
-
-## Running application in multi mode
-```
-npm run start:dev:multi
-npm run start:prod:multi
-
-```
-
-
-## Open second terminal in repository folder
-
-## Run Test:
-```bash
-npm run test
-```
-
-## Application must be runned before run tests
-This application is student homework.
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT ANY WARRANTY OR CONDITION OF ANY KIND, EXPRESS, IMPLIED OR STATUTORY, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OF ACCURACY, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
-
-
-- Use 24.10.0 version of Node.js
-
+- Task can be implemented on Javascript or Typescript
+- Only `nodemon`, `dotenv`, `cross-env`, `typescript`, `ts-node`, `ts-node-dev`, linter and its plugins,
+  bundler and its plugins and loaders, formatter and its plugins, `uuid`, `@types/*` as well as libraries used for
+  testing are allowed
+- Use 24.x.x version (24.10.0 or upper) of Node.js
+- Prefer asynchronous API whenever possible
 
 ## Implementation details
 
