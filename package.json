@@ -5,7 +5,8 @@
   "main": "server.ts",
   "scripts": {
     "start": "nodemon src/server.ts",
-    "start:dev": "nodemon src/server.ts"
+    "start:dev": "nodemon src/server.ts",
+    "start:prod": "webpack && node ./dist/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -30,7 +31,10 @@
     "cross-env": "^10.1.0",
     "nodemon": "^3.1.10",
     "prettier": "^3.6.2",
+    "ts-loader": "^9.5.4",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1"
   }
 }
