@@ -1,5 +1,3 @@
-/* eslint-disable node/no-unsupported-features/node-builtins */
-
 import http from 'http';
 import config from '../common/config';
 import { myReq, myRes, TErrorHandler, TMiddleWare, TNextFunction } from '../common/types.d';
@@ -105,7 +103,7 @@ class Application {
       if (config?.DEBUG) {
         console.log('req.body', req.body);
       }
-    } catch (error) {
+    } catch {
       throw new MyCustomError('"Body is not valid JSON', 500);
     }
 

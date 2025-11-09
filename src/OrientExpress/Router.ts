@@ -1,4 +1,3 @@
-/* eslint-disable no-else-return */
 import config from '../common/config';
 import { TMiddleWare, IParams, TMyHandler } from '../common/types.d';
 

@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { expect, describe, beforeAll, it } from '@jest/globals';
 import dotenv from 'dotenv';
 import path from 'path';
